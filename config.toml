@@ -1,0 +1,38 @@
+baseURL = "http://example.org/"
+languageCode = "hu"
+title = "Pazmany Peter Elektronikus Konyvtar"
+theme = "minos"
+DefaultContentLanguage = "hu"
+
+[taxonomies]
+  szerzo = "szerzok"
+  cim = "cimek"
+  formatum = "formatumok"
+  meret = "meretek"
+  cimke = "cimkek"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Főoldal"
+    title = "Főoldal"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "konyv"
+    name = "Könyvek"
+    title = "Könyvek"
+    url = "/konyv/"
+    weight = 2
+  [[menu.main]]
+    identifier = "szerzok"
+    name = "Szerzők"
+    title = "Szerzők"
+    url = "/szerzok/"
+    weight = 3
+  [[menu.main]]
+    identifier = "info"
+    name = "A könyvtárról"
+    title = "A könyvtárról"
+    url = "/info/"
+    weight = 4

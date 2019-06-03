@@ -1,0 +1,33 @@
+{{ partial "head.html" . }}
+<body>
+<div id="container">
+    {{ partial "header.html" . }}
+    <section id="main" class="outer">
+        <section class="archives-wrap">
+            <div class="archive-category-wrap">
+                <span class="archive-category">{{ .Title }}</span>
+            </div>
+            <div class="archives"> {{/* this displays some kind of border */}}
+
+                {{ range (.Paginate (.Pages.ByParam "szerzok")).Pages }}
+                    <article class="archive-article archive-type-post">
+                        <div class="archive-article-inner">
+                            <header class="archive-article-header">
+                                <h1 itemprop="name">
+                                    <a class="archive-article-title" href="{{ .RelPermalink }}">
+                                        {{ .Params.szerzok }}, {{ .Params.Title }}
+                                        {{/*  {{ partial "author-title.html" . }}  */}}
+                                    </a>
+                                </h1>
+                            </header>
+                        </div>
+                    </article>
+                {{ end }}
+            </div>
+    </section>
+        {{ partial "pagination.html" . }}
+    </section>
+    {{ partial "footer.html" . }}
+</div>
+</body>
+</html>
