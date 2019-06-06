@@ -1,13 +1,13 @@
 +++
-szerzok = ["Kiss Hugó"]
-title = "Maci Laci"
+szerzok = ["Kiss Hedvig"]
+title = "Másik könyv"
 formats = ["pdf"]
 sizes = [""]
 links = [""]
 tags = ["development", "golang"]
 
 idnumber = "1"
-description = "Ez a macikönyv. Csak azert irtam, hogy legyen itt valami. Sablon szoveg, mindenfele, korte, alma. Reggel hideg van. Sut a Nap. A kepen egy piros haziko lathato. Mellete fak, leveleik megsargultak. Jo lenne, ha a Chromecast vegre beadna egy masik kepek. Nem tudom, mennyi szoveget irjak ide, hogy rendesen latsszon, es ki lehessen vele probalni a PPEK oldalat. Talan ennyi mar eleg lesz, vagy ha megsem, akkor majd irok meg."
+description = "Donec et diam id tellus iaculis mollis. Sed congue urna a tincidunt egestas. Sed sollicitudin gravida quam, ac posuere turpis rhoncus id. Curabitur euismod eros vel sapien tristique, eu gravida massa sollicitudin. Pellentesque rutrum porttitor nunc eu interdum. Fusce vel tortor feugiat, condimentum tellus et, fermentum velit. Fusce in efficitur ligula. Integer turpis mauris, dapibus a ex quis, egestas auctor dui. Suspendisse tempor rutrum risus eget vulputate. Vivamus et suscipit ipsum, id pretium arcu. Suspendisse malesuada viverra ex, ac feugiat orci. Aliquam erat volutpat."
 
 date = '2018-11-22'
 

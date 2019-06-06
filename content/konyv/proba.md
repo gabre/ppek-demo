@@ -1,13 +1,13 @@
 +++
-szerzok = ["Túró Rudolf"]
-title = "Az első könyvem"
+szerzok = ["Tóth Rudolf"]
+title = "Az első könyv"
 formats = ["pdf"]
 sizes = [""]
 links = [""]
 tags = ["development", "golang"]
 
 idnumber = "3"
-description = "Az a konyv nem is igazi konyv. Csak azert irtam, hogy legyen itt valami. Sablon szoveg, mindenfele, korte, alma. Reggel hideg van. Sut a Nap. A kepen egy piros haziko lathato. Mellete fak, leveleik megsargultak. Jo lenne, ha a Chromecast vegre beadna egy masik kepek. Nem tudom, mennyi szoveget irjak ide, hogy rendesen latsszon, es ki lehessen vele probalni a PPEK oldalat. Talan ennyi mar eleg lesz, vagy ha megsem, akkor majd irok meg."
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a rhoncus sapien. Vivamus semper elit vitae lacus ultrices, ut semper lectus volutpat. Vivamus feugiat fermentum sapien id finibus. Pellentesque neque tortor, rutrum eu sapien vitae, dictum tempus diam. Mauris rutrum risus sed urna mattis sodales. Nam tempor ut justo vel rutrum. Sed ac placerat mi. Sed molestie diam molestie gravida faucibus. Etiam maximus mattis diam, eget venenatis quam aliquet eget. Cras sapien libero, bibendum vel malesuada sed, suscipit ut odio. Duis pretium a ligula ut ultricies."
 
 date = '2018-11-22'
 +++

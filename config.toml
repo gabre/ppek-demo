@@ -3,6 +3,7 @@ languageCode = "hu"
 title = "Pazmany Peter Elektronikus Konyvtar"
 theme = "minos"
 DefaultContentLanguage = "hu"
+preserveTaxonomyNames = true
 
 [taxonomies]
   szerzo = "szerzok"
